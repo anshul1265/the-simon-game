@@ -53,6 +53,7 @@ function playsound(name) {
 
 // looking for the user to click the button
 $(".btn").click(function () {
+    console.log("I got clicked");
     // handler function
     let userChosenColour = this.id;
     userClickedPattern.push(userChosenColour);
